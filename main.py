@@ -29,7 +29,7 @@ FONT_STYLES_PIL = ["arial", "calibri", "Candara", "cour", "comic", "ELEPHNT", "G
 def open_file(*args):
     global resized_file, PATH, watermark_list, IMAGE_WIDTH, IMAGE_HEIGHT, FACTOR, COLOR_CODE_HEX, layers, active_rectangle
 
-    PATH = filedialog.askopenfile().name
+    PATH = filedialog.askopenfile(filetypes=[("Image files", ".png .jpg .jpeg")]).name
     file = Image.open(PATH)
     resized_file = ImageTk.PhotoImage(ImageOps.contain(file, (WIDTH, HEIGHT)))
     IMAGE_WIDTH = resized_file.width()
