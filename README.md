@@ -1,7 +1,7 @@
 # watermarking-app
 A watermarking app developed with pillow and tkinter, with font choices and layers. It also supports keyboard shortcuts.
 
-![](https://img.shields.io/badge/python-v3.9.5-blue) ![](https://img.shields.io/badge/Pillow-v-yellowgreen)
+![](https://img.shields.io/badge/python-v3.9.5-blue) ![](https://img.shields.io/badge/Pillow-v8.3.1-yellowgreen)
 
 ## Technologies Used
 ### Languages Used
@@ -10,7 +10,7 @@ A watermarking app developed with pillow and tkinter, with font choices and laye
 ### Modules Used
 * Sys
 * Tkinter
-* PIL (Pillow)
+* PIL (Pillow) 8.3.1
 
 ## Modules Installation
 PIL is not pre-installed with python.
@@ -18,7 +18,7 @@ PIL is not pre-installed with python.
 To install this module, type the following command in terminal.
 
 ```
-pip install pillow
+pip install pillow==8.3.1
 ```
 or use the requirements.txt file
 
