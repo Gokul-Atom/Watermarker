@@ -1,4 +1,4 @@
-# watermarking-app
+# Watermarking App
 A watermarking app developed with pillow and tkinter, with font choices and layers. It also supports keyboard shortcuts.
 
 ![](https://img.shields.io/badge/python-v3.9.5-blue) ![](https://img.shields.io/badge/Pillow-v8.3.1-yellowgreen)
